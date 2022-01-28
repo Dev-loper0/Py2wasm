@@ -1,0 +1,238 @@
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+a = 1
+b = 2
+c = a + b
+
+
+-------python byte code--------------
+
+  1           0 LOAD_CONST               0 (1)
+              2 STORE_NAME               0 (a)
+
+  2           4 LOAD_CONST               1 (2)
+              6 STORE_NAME               1 (b)
+
+  3           8 LOAD_NAME                0 (a)
+             10 LOAD_NAME                1 (b)
+             12 BINARY_ADD
+             14 STORE_NAME               2 (c)
+             16 LOAD_CONST               2 (None)
+             18 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+(module
+	;;Here built in modules
+	(func $PRINT (param $x i32)(result i32) local.get $x)
+	(func (export "__start")
+		;;to init vars
+
+		;;Here start programm boy
+
+	)
+)
+
+-------python code------------------
+
+print(10)
+
+-------python byte code--------------
+
+  1           0 LOAD_NAME                0 (print)
+              2 LOAD_CONST               0 (10)
+              4 CALL_FUNCTION            1
+              6 RETURN_VALUE
+
+-------- wat gen code-----------------
+
+
+-------python code------------------
+
+print(10)
+
+-------python byte code--------------
+
+  1           0 LOAD_NAME                0 (print)
+              2 LOAD_CONST               0 (10)
+              4 CALL_FUNCTION            1
+              6 RETURN_VALUE
+
+-------- wat gen code-----------------
+

@@ -1,0 +1,23 @@
+<html>
+  <script>
+    var importObject = {
+      console: {
+        log: function(arg) {
+          console.log(arg);
+        }
+      }
+    };
+  WebAssembly.instantiateStreaming(fetch('out.wasm'), importObject)
+  .then(obj => {
+      obj.instance.exports.__start();
+      });
+
+  </script>
+  <body bgcolor="#98ff75">
+    <br>
+    <br>
+    <h1 style="color:#ff00dd;text-align: center"> Wasm Test file ! </h1>
+    <p style="color:red;text-align: center">By Noureddine Cheriet</p>
+  </body>
+</html>
+
